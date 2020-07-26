@@ -1,0 +1,53 @@
+  
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header{
+  height:65px;
+  width:100%;
+  background-color:#5f5d60;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+.companyName{
+  font-size:25px;
+  color:white;
+}
+.header-left{
+  float:left;
+}
+
+.top-wrapper{
+  padding:180px 0 100px 0;
+  background-image:url(background_photo.jpg);
+  background-size:cover;
+  text-align:center;
+}
+.container{
+  width:1170px;
+  margin:0 auto;
+}
+.top-wrapper h1{
+  font-size:45px;
+  letter-spacing: 5px;
+}
+.top-wrapper p{
+  font-size:20px
+}
